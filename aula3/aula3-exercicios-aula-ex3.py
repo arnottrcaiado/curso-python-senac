@@ -38,6 +38,9 @@ while continua:
 
 # entrar Estado Civil
 continua = True
+
+# estado_civil = ""
+# while "SCVD".find(estado_civil.upper()) == -1 )
 while continua:
     estado_civil = input("\n Estado Civil (s , c, v, d ): ")
     estado_civil = estado_civil.lower()
