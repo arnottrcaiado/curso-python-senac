@@ -24,3 +24,5 @@ if classificacao >= 3 and classificacao <=4 : # cumplice
     print( "\n Cumplice")
 if classificacao == 5 : # assassino
     print( "\n Assassino")
+
+
