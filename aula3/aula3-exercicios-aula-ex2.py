@@ -9,6 +9,9 @@ while continua :
     nome = nome.lower()
     senha = senha.lower()
     if nome != senha :
-        continua = False
+        break
+#       continua = False
     else :
         print( "\n Nome não pode ser igual a senha!")
+
+print( "\n Terminou ok")
