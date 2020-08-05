@@ -12,7 +12,7 @@ while continua :
 
 continua = True
 while continua :
-    idade = int(input("\n Entre com idade (de 0 a 150): ")
+    idade = int(input("\n Entre com idade (de 0 a 150): "))
     if idade >=0 and idade <=150 :
         continua = False
     else :
@@ -20,7 +20,7 @@ while continua :
 
 continua = True
 while continua :
-    salario = float(input("\n Entre salario (maior que 0): ")
+    salario = float(input("\n Entre salario (maior que 0): "))
     if salario > 0:
         continua = False
     else :
@@ -29,8 +29,8 @@ while continua :
 # entrar sexo
 continua = True
 while continua:
-    sexo = (input("\n Sexo (m ou f): ")
-    sexo = sexo.lower())
+    sexo = (input("\n Sexo (m ou f): "))
+    sexo = sexo.lower()
     if sexo == 'f' or sexo == 'm' :
         continua = False
     else:
@@ -39,9 +39,9 @@ while continua:
 # entrar Estado Civil
 continua = True
 while continua:
-    estado_civil = (input("\n Estado Civil (s , c, v, d ): ")
-    estado_civil = estado_civil.lower())
-    if estado_civil == 's' or estado_civil == 'c' or estado_civil=='v' or estado_civil='d' :
+    estado_civil = input("\n Estado Civil (s , c, v, d ): ")
+    estado_civil = estado_civil.lower()
+    if estado_civil == 's' or estado_civil == 'c' or estado_civil=='v' or estado_civil=='d' :
         continua = False
     else:
         print("\n Estado Civil deve ser (s,c,v,d)!")
