@@ -27,8 +27,8 @@ while continua :
         print("\n Valor invalido!")
 
     taxa_b = 0
-    while taxa_b <= 0 or taxa_b > 1:
-        taxa_b = float(input("\n Taxa de crescimento pais B ( entre 0 e 1) :"))
+    while taxa_b <= 0 or taxa_b > 1 or taxa_b > taxa_a :
+        taxa_b = float(input("\n Taxa de crescimento pais B ( entre 0 e 1 e menor que do pais A ) :"))
         if taxa_b > 0 and taxa_b < 1:
             break
         print("\n Valor invalido!")
