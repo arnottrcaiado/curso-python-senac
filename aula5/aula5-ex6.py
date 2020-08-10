@@ -11,6 +11,15 @@ def converte_24_12( hora ) : # recebe hora padrao 24
         hora = hora - 12
         return hora, 'PM'
 
+def saida( hora, minuto) :
+    hora_saida =""
+    if hora < 12 :
+        hora_saida = str(hora)+":"+str(minuto)+" A"
+    if hora > 12 :
+        hora = hora -12
+        hora_saida = str(hora)+":"+str(minuto)+"P"
+    return( hora_saida )
+
 
 hora_24= int(input("Entre com a hora ( o-24 "))
 minutos = int(input("Entre com os minutos ( 0-59 ) "))
