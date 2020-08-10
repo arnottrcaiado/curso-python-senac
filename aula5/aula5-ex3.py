@@ -7,13 +7,15 @@ def somanum( numeros ):
         soma += numeros[i]
     return (soma)
 
+# programa principal
 num = []
-
-while ( True ) :
-    numero = int(input("Entre com numero inteiro (0 para terminar):"))
+qnum =0
+while ( qnum < 3 ) :
+    numero = int(input("Entre com numero inteiro :"))
     if numero != 0 :
         num.append( numero )
     else :
-        break;
+        print("numero invalido")
+    qnum +=1
 
 print( somanum( num ))
