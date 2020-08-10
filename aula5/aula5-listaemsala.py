@@ -20,8 +20,8 @@ def imprime ( numero ):
         print( )
         i +=1
 
-
-imprime(10)
+numero = int(input("entre com um numero inteiro:"))
+imprime( numero )
 
 soma_num = soma( 10,20,30,40)
 print(soma_num)

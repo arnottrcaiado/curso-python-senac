@@ -1,9 +1,9 @@
-# aula5 - ex1 - Arnott Ramos Caiado
+# aula5 - ex2 - Arnott Ramos Caiado
 def imprime ( numero ):
     i=1
     while i <= numero :
         for j in range(1,i+1) :
-            print( i,end=" ")
+            print( j,end=" ")
         print( )
         i +=1
 
